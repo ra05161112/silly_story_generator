@@ -13,4 +13,23 @@ let insertx =["Willy the Goblin", "Big Daddy", "Father Christmas"];
 
 let inserty = ["the soup kitchen", "Disneyland", "the White House"];
 
-let insertz = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"]
+let insertz = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+
+randomize.addEventListener('click', result);
+
+function result() {
+
+  if(customName.value !== '') {
+    let name = customName.value;
+
+  }
+
+  if(document.getElementById("uk").checked) {
+    let weight = Math.round(300);
+    let temperature =  Math.round(94);
+
+  }
+
+  story.textContent = ;
+  story.style.visibility = 'visible';
+}
